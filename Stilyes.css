@@ -1,0 +1,106 @@
+p {
+	color: white;
+	font-size: 100%;
+	align: center;
+}
+
+#estilo {
+	color: red;
+	background-color: yellow ;
+}
+
+.miestilo {
+	background-color: pink ;
+}
+
+/* definir estilo para la pagina */
+#estilo .primer em {
+	color: black;
+	background-color: red ;
+}
+
+p.small {
+	font-size: small;
+}
+
+p.medium {
+	font-size: medium ;
+}
+
+p.large {
+	font-size: large ;
+}
+
+p.xlarge {
+	font-size: xlarge;
+}
+
+h2 {
+	font-size: 20 ;
+	align: center;
+	font-color: #023047;
+}
+
+h4 {
+	font-size: 40px ;
+	align: center;
+	font-color: #023047;
+}
+
+p.normal {
+	font-style: normal;
+}
+
+/* estilos basicos para la pagina */
+body {
+	font-family: Arial, sans-serif;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 200;
+    background-color: #a2d2ff;
+	font-color: #023047;
+}
+
+/* contenedor de elementos flex */
+.container {
+	display: flex; 
+    justify-content: space-around; /* Espacio alrededor de los elementos */
+    background-color: #e3d5ca;
+    padding: 50px;
+    border-radius: 10px;	/* redondeo para las esquinas */
+    box-shadow: 0 0 50px rgba(25, 12, 25, 0.2);
+}
+/* Estilos para las cajas */
+.repost1 {
+    background-color: #3a7ca5;
+    color: pink;
+    padding: 20px;
+    text-align: left;
+    border-radius: 15px;
+    flex: 1; /* Flex-grow, permite que las cajas crezcan para ocupar el espacio disponible */
+    margin: 10px; /* Espacio entre las cajas */
+}
+.repost2 {
+    background-color: #3a7ca5;
+    color: pink;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 1; /* Flex-grow, permite que las cajas crezcan para ocupar el espacio disponible */
+    margin: 5px; /* Espacio entre las cajas */
+}
+button {
+    border-radius: 15px;
+	background-color:#219ebc; 
+	padding: 14px 28px; 
+	font-size: 16px; 
+	cursor: pointer; 
+	display: inline-block;
+}
+
+@keyframes anima {
+	from {background-color: red;}
+    to {background-color: yellow;}
+}
